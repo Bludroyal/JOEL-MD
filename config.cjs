@@ -3,8 +3,8 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "Your Session Id",
-  PREFIX: process.env.PREFIX || '.',
+  SESSION_ID: process.env.SESSION_ID || "Ethix-MD&J9mSqjQL",
+  PREFIX: process.env.PREFIX || '!',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true,
   AUTOLIKE_STATUS: process.env.AUTOLIKE_STATUS !== undefined ? process.env.AUTOLIKE_STATUS === 'true' : false,
   AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || '💚', // For liking status updates(stories)
@@ -24,8 +24,8 @@ const config = {
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "public",
   OWNER_NAME: process.env.OWNER_NAME || "𝙻𝚘𝚛𝚍 𝚓𝚘𝚎𝚕",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "255714595078",
-  SUDO_NUMBERS: process.env.SUDO_NUMBERS || "255714595078,255781144539,255767570963",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "2349164718113",
+  SUDO_NUMBERS: process.env.SUDO_NUMBERS || "2347053192517",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
